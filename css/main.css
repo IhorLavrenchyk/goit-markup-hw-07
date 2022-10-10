@@ -113,12 +113,12 @@ header {
 .guidance:focus,
 .guidance:hover,
 .logo-part {
-  color: accent-color;
+  color: #2196f3;
 }
 
 .contact-item .guidance:focus .svg-contact,
 .contact-item .guidance:hover .svg-contact {
-  fill: accent-color;
+  fill: #2196f3;
 }
 
 .header-list {
@@ -210,7 +210,7 @@ header {
 }
 
 .hero-btn {
-  color: color-white;
+  color: #ffffff;
   background-color: #2196f3;
   font-family: inherit;
   font-weight: 700;
@@ -367,12 +367,6 @@ header {
   line-height: 1.2;
   text-align: center;
 }
-.team .social-icon {
-  display: inline-block;
-  fill: #afb1b8;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .social {
   margin-top: 16px;
@@ -406,8 +400,14 @@ header {
 .social__link:hover, .social__link:focus {
   background-color: #2196f3;
 }
-.social__link:hover .social-icon, .social__link:focus .social-icon {
+.social__link:hover .social__icon, .social__link:focus .social__icon {
   fill: #ffffff;
+}
+.social__icon {
+  display: inline-block;
+  fill: #afb1b8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-item {

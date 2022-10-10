@@ -44,12 +44,12 @@ header {
 .guidance:focus,
 .guidance:hover,
 .logo-part {
-  color: accent-color;
+  color: $accent-color;
 }
 
 .contact-item .guidance:focus .svg-contact,
 .contact-item .guidance:hover .svg-contact {
-  fill: accent-color;
+  fill: $accent-color;
 }
 
 .header-list {
