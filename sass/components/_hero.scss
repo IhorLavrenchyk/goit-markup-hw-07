@@ -7,12 +7,12 @@
     url(../images/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: var(--background-color);
+  background-color: $background-color;
   padding: 200px 0;
 }
 
 .hero-title {
-  color: var(--color-white);
+  color: $color-white;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -24,8 +24,8 @@
 }
 
 .hero-btn {
-  color: var(--color-white);
-  background-color: var(--accent-color);
+  color: color-white;
+  background-color: $accent-color;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;

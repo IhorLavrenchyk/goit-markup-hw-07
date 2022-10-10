@@ -1,7 +1,7 @@
 body {
-  background-color: var(--color-white);
+  background-color: $color-white;
   font-family: 'Roboto', sans-serif;
-  color: var(--color-text);
+  color: $color-text;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
